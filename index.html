@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <title>Frontend Mentor | Intro section with dropdown navigation</title>
+  <style>
+    .attribution { font-size: 11px; text-align: center; margin-top: 1rem;}
+  </style>
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <header>
+    <nav>
+      <figure class="nav__logo">
+        <img src="./images/logo.svg" alt="logo">
+      </figure>
+      <div class="nav__navigation-container">
+        <ul class="nav__nav-list">
+
+          <li class="nav__dropdown">
+            <span class="nav__list-item nav__list-item--span">Features<span><img src="./images/icon-arrow-down.svg" alt=""></span></span>
+            <span class="nav__tooltip">
+              <div class="nav__tooltip-item"><span class="nav__tooltip-icons"><img class="nav__tooltip-icons-img" src="./images/icon-todo.svg" alt=""></span><span>Todo List</span></div>
+              <div class="nav__tooltip-item"><span class="nav__tooltip-icons"><img class="nav__tooltip-icons-img" src="./images/icon-calendar.svg" alt=""></span><span>Calender</span></div>
+              <div class="nav__tooltip-item"><span class="nav__tooltip-icons"><img class="nav__tooltip-icons-img" src="./images/icon-reminders.svg" alt=""></span><span>Reminders</span></div>
+              <div class="nav__tooltip-item"><span class="nav__tooltip-icons"><img class="nav__tooltip-icons-img" src="./images/icon-planning.svg" alt=""></span><span>Planning</span></div>
+            </span>
+          </li>
+  
+          <li class="nav__dropdown">
+            <span class="nav__list-item nav__list-item--span">Company<span><img src="./images/icon-arrow-down.svg" alt="/"></span></span>
+            <span class="nav__tooltip">
+              <div class="nav__tooltip-item">History</div>
+              <div class="nav__tooltip-item">Our Team</div>
+              <div class="nav__tooltip-item">Blog</div>
+            </span>
+          </li>
+  
+          <li class="nav__list-item">Careers</li>
+  
+          <li class="nav__list-item">About</li>
+  
+        </ul>
+
+        <figure class="nav__close-icon">
+          <img src="./images/icon-close-menu.svg" alt="icon-close-menu">
+        </figure>
+
+        <div class="nav__log-reg-mobile">
+          <button class="nav__button">Login</button>
+          <button class="nav__button nav__button-border">Register</button>
+        </div>
+
+      </div>
+      
+
+      <div class="nav__log-reg-desktop">
+        <button class="nav__button">Login</button>
+        <button class="nav__button nav__button-border">Register</button>
+      </div>
+
+      <figure class="nav__hamburger">
+        <img src="./images/icon-menu.svg" alt="">
+      </figure>
+
+    </nav>
+  </header>
+  <main>
+
+    <div class="main">
+
+      <section class="main__section">
+        <h1 class="main__header">Make <span>remote work</span></h1>
+        <p class="main__paragraph">Get your team in sync, no matter your location. Streamline processes, create team rituas, and watch productivity soar.</p>
+        <button class="main__button">Learn more</button>
+        <div class="main__partners">
+
+          <figure class="main__client">
+            <img src="./images/client-databiz.svg" alt="databiz">
+          </figure>
+
+          <figure class="main__client">
+            <img src="./images/client-audiophile.svg" alt="audiophile">
+          </figure>
+
+          <figure class="main__client">
+            <img src="./images/client-meet.svg" alt="meet">
+          </figure>
+
+          <figure class="main__client">
+            <img src="./images/client-maker.svg" alt="maker">
+          </figure>
+           
+        </div>
+      </section>
+
+      <figure class="main__hero-desktop">
+        <img src="./images/image-hero-desktop.png" alt="image-hero-desktop">
+      </figure>
+
+      <figure class="main__hero-mobile">
+        <img src="./images/image-hero-mobile.png" alt="image-hero-mobile">
+      </figure>
+
+    </div>
+
+  </main>
+
+  <div class="attribution">
+    Coded by Johnny.
+  </div>
+</body>
+</html>
